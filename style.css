@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Courier New', Courier, monospace;
-    background: url(../city.jpeg);
+    background: url(./city.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
