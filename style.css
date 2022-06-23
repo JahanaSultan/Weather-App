@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: url(../city.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    line-height: 1.7;
+    text-align: center;
+}
+input{
+    border: 0;
+    outline: 0;
+    height: 30px;
+    width: 270px;
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 196, 0, 0.571);
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+::placeholder{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(128, 128, 128, 0.571);}
+    
+h1{
+    font-size: 40px;
+    color: rgb(255, 196, 0);
+    margin-bottom: 20px;
+}
+.city{
+    margin: 5px 0;
+    font-size: 35px;
+    font-weight: 600;
+}
+.temp{
+    font-size: 50px;
+    font-weight: 700;
+}
+.descr, .minmax, .pressure, .humidity{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
