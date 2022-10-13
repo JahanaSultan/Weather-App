@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Raleway', sans-serif;
     background: url(./city.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,7 +19,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.684);
     color: white;
     line-height: 1.7;
     text-align: center;
@@ -56,4 +58,8 @@ h1{
     font-size: 18px;
     text-transform: capitalize;
     font-weight: 500;
+}
+.icon{
+    width: 80px;
+    height: 80px;
 }
