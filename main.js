@@ -39,6 +39,7 @@ let getResult = (city) => {
       return response.json()
     })
     .then(result)
+    .catch(error=>alert("Nəticə Tapilmadı"))
 }
 
 
